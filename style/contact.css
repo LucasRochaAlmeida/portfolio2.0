@@ -1,6 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+
+    background-image: url(/images/fundo.jpg);
+    background-position: center;
 }
 
 #box{
@@ -12,7 +15,10 @@ body{
     width: 100vw;
     height: 100vh;
     
-    background-color: hsl(217, 54%, 11%);
+    /* background-color: hsl(217, 54%, 11%); */
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.5102415966386555) 50%, rgba(119,9,0,0) 63%);
+
 }
 
 header{
