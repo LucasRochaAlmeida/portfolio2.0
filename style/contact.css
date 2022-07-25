@@ -57,6 +57,7 @@ header{
 h2{
     font-family: 'Raleway', sans-serif;
     color: white;
+    font-size: 30px;
 }
 
 form{
@@ -67,6 +68,9 @@ form{
 label{
     color: white;
     margin: 20px 0 5px 0;
+    font-size: 25px;
+
+    font-family: 'Raleway', sans-serif;
 }
 
 input{
@@ -76,6 +80,7 @@ input{
     border-right: none;
 
     color: white;
+    font-size: 20px;
 }
 
 input:focus{
