@@ -1,0 +1,12 @@
+#techList{
+    animation: go-back 2s infinite alternate;
+}
+
+@keyframes go-back {
+    from {
+      transform: translateX(50px);
+    }
+    to {
+      transform: translateX(-50px);
+    }
+  }

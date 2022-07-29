@@ -68,7 +68,20 @@ h2{
 
 section p{
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
     color: white;
+}
+
+#techs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#techList{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 25px;
 }
 
 article{
