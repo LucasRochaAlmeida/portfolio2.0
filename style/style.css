@@ -101,15 +101,3 @@ li{
     width: 400px;
 }
 
-#links{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-#links a{
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    font-size: 25px;
-}
