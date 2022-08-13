@@ -14,8 +14,8 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     
     /* background-color: hsl(217, 54%, 11%); */
     background: rgb(0,0,0);
@@ -38,6 +38,7 @@ header{
     justify-content: space-around;
 
     width: 40vw;
+    margin: 25px 0;
 }
 
 #menu a{
@@ -48,6 +49,24 @@ header{
 }
 
 /* content */
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 370px;
+}
+
+#links a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+#links img{
+    width: 70px;
+}
 
 #container{
     display: flex;
@@ -97,7 +116,7 @@ input:focus{
 }
 
 #submitButton{
-    margin: 30px 0 0 0;
+    margin: 30px 0 30px 0;
 
     background-color: darkcyan;
     border-radius: 10px;
