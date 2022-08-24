@@ -24,7 +24,7 @@ body{
     height: 50vh;
     
     /* background-image: url(/images/wall.jpg); */
-    background: rgba(0, 0, 0, 0.7) url(/images/wall.jpg);
+    background: rgba(0, 0, 0, 0.7) url(../images/wall.jpg);
     background-blend-mode: darken;
     background-position: top;
     background-size: 100%;
