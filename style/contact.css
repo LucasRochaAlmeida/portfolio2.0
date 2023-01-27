@@ -14,8 +14,8 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     
     /* background-color: hsl(217, 54%, 11%); */
     background: rgb(0,0,0);

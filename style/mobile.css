@@ -10,6 +10,12 @@
       transform: translateX(-50px);
     }
   } */
+
+  @media screen and (max-width: 1321px) {
+    li{
+      flex-direction: column;
+    }
+  }
   
 
 @keyframes flutuar {
