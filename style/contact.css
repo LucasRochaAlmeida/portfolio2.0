@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    min-height: 800px;
     /* background-image: url(/images/fundo.jpg);
     background-position: center;
     background-size: cover; */
@@ -15,7 +16,7 @@ html, body{
     justify-content: space-evenly;
 
     width: auto;
-    height: 100vh;
+    height: 100%;
     
     /* background-color: hsl(217, 54%, 11%); */
     background: rgb(0,0,0);
