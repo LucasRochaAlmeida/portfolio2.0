@@ -1,7 +1,7 @@
-body{
+html, body{
     margin: 0;
     padding: 0;
-
+    height: 100vh;
     /* background-image: url(/images/fundo.jpg);
     background-position: center;
     background-size: cover; */
@@ -15,7 +15,7 @@ body{
     justify-content: space-evenly;
 
     width: auto;
-    height: auto;
+    height: 100vh;
     
     /* background-color: hsl(217, 54%, 11%); */
     background: rgb(0,0,0);
