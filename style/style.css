@@ -82,7 +82,7 @@ section p{
     padding-bottom: 10px;
 }
 
-.conteudo img {
+.content img {
     width: 60px;
     filter: drop-shadow(0px 0px 1px #4b4b50);
     animation: flutuar 3s linear infinite;
@@ -109,5 +109,15 @@ li{
 
 .imageList{
     width: 400px;
+    border-radius: 5px;
 }
 
+.project {
+    animation: fadeIn 1s forwards;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .project:hover {
+    transform: scale(1.1);
+    top: -48px
+  }
